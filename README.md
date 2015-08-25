@@ -3,7 +3,27 @@
 Using Circular Linked Lists to implement the simplified Solitaire encryption algorithm by Bruce Schneier. Created for 
 CS112-Data Structures at Rutgers University (Spring 2015). For official assignment, click here: http://www.cs.rutgers.edu/courses/112/classes/spring_2015_venugopal/progs/prog2/prog2.html
 
-A (simplified) deck is represented by a circular linked list, with 28 nodes (26 card plus two jokers, which were represented by the numbers 27 and 28). To get the keystream for encryption, the following methods were implemented:
+
+
+
+A (simplified) deck is represented by a circular linked list, with 28 nodes (26 card plus two jokers, which were represented by the numbers 27 and 28). The API is as follows
+
+     public class Solitaire {
+     public Solitaire()                       //assigns a shuffled deck to deckRear . Calls makeDeck()
+     public void makeDeck()                  //create a new deck with all the cards shuffled
+     public void jokerA()                    // See below
+     public void jokerB()                   // See below
+     public void tripleCut()               // See below
+     public void countCut()                // See below
+     public int getKey()                      // calls jokerA(), jokerB(), tripleCut(), countCut() and then extracts                                                    // value. See assignment details for more info
+     public String encrypt(String message)   // encrypts a message
+     public String decryp(String message)    // decrypts a message
+
+
+
+
+
+To get the keystream for encryption, the following methods were implemented:
 
     STEP 1
     jokerA(): Find Joker "A" (27) and move it ONE card down by swapping it with the card below (after) it.
