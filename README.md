@@ -47,4 +47,6 @@ A (simplified) deck is represented by a circular linked list, with 28 nodes (26 
                                                                             ^^^^^^^^^^^^^^^^^
     If the last card happens to be Joker B (28), use 27 (instead of 28) as its value for this step.
 
-Using these methods, a keystream was created and a user-inputed message was encoded. Decoding followed a similar process. This assignment was intended to help student
+Using these methods, a keystream was created and a user-inputed message was encoded. Decoding followed a similar process. This assignment was intended to help students use pointers correctly and effecitvely.
+
+The assignmet ws completed on February 23rd, 2015
