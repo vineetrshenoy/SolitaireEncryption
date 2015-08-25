@@ -5,9 +5,6 @@ CS112-Data Structures at Rutgers University (Spring 2015). For official assignme
 
 A (simplified) deck is represented by a circular linked list, with 28 nodes (26 card plus two jokers, which were represented by the numbers 27 and 28). To get the keystream for encryption, the following methods were implemented:
 
-     public class Solitaire
-     public void makeDeck()      //Makes a shuffled deck of cards. Deck is stored in a circularlinked list, whose last node is pointed to by the field deckRear
-
     STEP 1
     jokerA(): Find Joker "A" (27) and move it ONE card down by swapping it with the card below (after) it.
     This results in the following, after swapping 27 with 7 in the starting deck:
