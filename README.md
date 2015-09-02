@@ -10,14 +10,14 @@ A (simplified) deck is represented by a circular linked list, with 28 nodes (26 
 
      public class Solitaire {
      public Solitaire()                       //assigns a shuffled deck to deckRear . Calls makeDeck()
-     public void makeDeck()                  //create a new deck with all the cards shuffled
-     public void jokerA()                    // See below
-     public void jokerB()                   // See below
-     public void tripleCut()               // See below
-     public void countCut()                // See below
-     public int getKey()                      // calls jokerA(), jokerB(), tripleCut(), countCut() and then extracts value. See assignment details for more info
-     public String encrypt(String message)   // encrypts a message
-     public String decryp(String message)    // decrypts a message
+     public void makeDeck()                   //create a new deck with all the cards shuffled
+     public void jokerA()                     //See below
+     public void jokerB()                     //See below
+     public void tripleCut()                  //See below
+     public void countCut()                   //See below
+     public int getKey()                      //Calls jokerA(), jokerB(), tripleCut(), countCut() and then extracts value. See assignment details for more info
+     public String encrypt(String message)    //Encrypts a message
+     public String decryp(String message)     //Decrypts a message
 
 
 
