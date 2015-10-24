@@ -1,7 +1,7 @@
 # SolitaireEncryption
 
 Using Circular Linked Lists to implement the simplified Solitaire encryption algorithm by Bruce Schneier. Created for 
-CS112-Data Structures at Rutgers University (Spring 2015). For official assignment, click here: http://www.cs.rutgers.edu/courses/112/classes/spring_2015_venugopal/progs/prog2/prog2.html
+CS112-Data Structures at Rutgers University (Spring 2015). 
 
 
 
